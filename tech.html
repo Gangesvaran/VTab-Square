@@ -25,8 +25,7 @@
     <title>VTab Square</title>
     <link rel="stylesheet" href="./assets/css/nav.css">
     <link rel="stylesheet" href="assets/css/tech.css">
-<style>
-</style>
+
 </head>
 
 <body>
@@ -60,7 +59,7 @@
                                     class="fas fa-info-circle me-2"></i>About</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                                data-bs-toggle="dropdown" aria-expanded="false" onclick="services()">
                                 <i class="fas fa-user-cog me-2"></i>Services
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -413,15 +412,16 @@
                     <div class="thumbnail1"><img class="left"
                             src="https://www.functionize.com/wp-content/uploads/2019/04/ft-selenium-black.jpg" />
                     </div>
-                    
                     <div class="right1">
-                        <h1>Selenium</h1>
+                        <!-- <h1>Selenium</h1> -->
+                        <br>
                         <div class="separator1"></div>
                         <p>Selenium is an open-source and transportable automatic software program testing tool for testing web programs. It has the skills to function throughout unique browsers and operating systems. Selenium isn’t always only a single tool however a hard and fast of tool that allows testers 
                             to automate web-primarily based totally programs greater efficiently</p>
-                        </div>
-                    
+                        </div><br><br>
+                        <h1 class="left text-center text-uppercase">Selenium</h1>        
                 </div>
+                
         
         </div>
     </div>
@@ -443,9 +443,9 @@
         <div class="blog-card my-5">
             <div class="meta">
               <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
-              <ul class="details">
-                <li class="author"><a href="#">Tableau</a></li>
-              </ul>
+              <div class="details">
+                <h3 class="text-center text-uppercase">Tabuleau</h3>
+              </div>
             </div>
             <div class="description">
               <h1>What is a Tableau?</h1>
@@ -456,9 +456,9 @@
           <div class="blog-card alt my-5">
             <div class="meta">
               <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>
-              <ul class="details">
-                <li class="author"><a href="#">Power BI</a></li>
-              </ul>
+              <div class="details">
+                <h3 class="text-center text-uppercase">Power BI</h3>
+              </div>
             </div>
             <div class="description">
               <h1>What is Power BI?
@@ -471,9 +471,9 @@
           <div class="blog-card my-5">
             <div class="meta">
               <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
-              <ul class="details">
-                <li class="author"><a href="#">Qlikview</a></li>
-              </ul>
+              <div class="details">
+                <h3 class="text-center text-uppercase">Qlikview</h3>
+              </div>
             </div>
             <div class="description">
               <h1>What is Qlikview?
@@ -485,9 +485,9 @@
           <div class="blog-card alt my-5">
             <div class="meta">
               <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>
-              <ul class="details">
-                <li class="author"><a href="#">Qlik Sense</a></li>
-              </ul>
+              <div class="details">
+                <h3 class="text-center text-uppercase">Qlik Sense</h3>
+              </div>
             </div>
             <div class="description">
               <h1>
@@ -500,9 +500,9 @@
           <div class="blog-card my-5">
             <div class="meta">
               <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
-              <ul class="details">
-                <li class="author"><a href="#">NPrinting</a></li>
-              </ul>
+              <div class="details">
+                <h3 class="text-center text-uppercase">NPrinting</h3>
+              </div>
             </div>
             <div class="description">
               <h1>What is NPrinting?</h1>
@@ -606,5 +606,10 @@
     
     });
    </script>
+   <script>
+    function services() {
+        window.location.href = "service.html";
+    }
+</script>
 </body>
 </html>
