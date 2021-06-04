@@ -4,7 +4,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image:linear-gradient(rgba(15, 14, 14, 0.644),rgba(15, 12, 12, 0.555)) , url("../assets/Images/slide/Support & Quality.jpg");
+  background-image:linear-gradient(rgba(15, 14, 14, 0.644),rgba(15, 12, 12, 0.555)) , url("https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDZ8fHdlYiUyMGRldmVsb3BlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
