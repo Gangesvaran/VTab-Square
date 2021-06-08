@@ -527,6 +527,7 @@ header.masthead {
   }
   .card:hover .face.face2 .content p{
       opacity:1;
+      font-size:-1;
   
   }
   
