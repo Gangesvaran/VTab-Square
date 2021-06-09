@@ -1,6 +1,5 @@
 body {
   overflow-x: hidden;
-  
 }
 
 /* masterhead */
@@ -54,9 +53,14 @@ header.masthead .masthead-heading {
 /* end of masterhead */
 /* Navbar Start*/
 @media all and (min-width: 992px  ) {
-  nav{
-    font-family: 'Open Sans', sans-serif;
-    }
+    nav{
+      font-family:var(--bs-font-sans-serif) ;
+      font-size: 12px;
+      }
+      .dropdown-item{
+        font-family:var(--bs-font-sans-serif) ;
+        font-size: 12px;
+      }
   .dropdown-menu li {
     position: relative;
      color:#fff
@@ -91,7 +95,7 @@ header.masthead .masthead-heading {
   
   }
   .dropdown-menu .dropdown-item {
-    font-weight: bold;
+    
     color:#fff;
   }
   .dropdown-menu .dropdown-item:hover {
@@ -101,8 +105,10 @@ header.masthead .masthead-heading {
     text-decoration: underline;
  
   }
-  .submenu table td {
-    font-weight: bold;
+  .submenu table {
+    font-family:var(--bs-font-sans-serif) ;
+    font-size: 12px;
+    
   }
   .submenu table:hover {
     background-color:#000;

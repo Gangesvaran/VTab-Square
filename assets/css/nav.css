@@ -1,7 +1,12 @@
 /* Navbar Start*/
 @media all and (min-width: 992px  ) {
   nav{
-    font-family: 'Open Sans', sans-serif;
+    font-family:var(--bs-font-sans-serif) ;
+    font-size: 12px;
+    }
+    .dropdown-item{
+      font-family:var(--bs-font-sans-serif) ;
+      font-size: 12px;
     }
   .dropdown-menu li {
     position: relative;
@@ -37,7 +42,7 @@
   
   }
   .dropdown-menu .dropdown-item {
-    font-weight: bold;
+   
     color:#fff;
   }
   .dropdown-menu .dropdown-item:hover {
@@ -47,8 +52,9 @@
     text-decoration: underline;
  
   }
-  .submenu table td {
-    font-weight: bold;
+  .submenu table {
+    font-family:var(--bs-font-sans-serif) ;
+    font-size: 12px;
   }
   .submenu table:hover {
     background-color:#000;
