@@ -229,7 +229,7 @@ figure.effect-marley p {
 
 
 figure.effect-marley p {
-    bottom: 30px;
+    top: 100px;
     line-height: 1.5;
     -webkit-transform: translate3d(0,100%,0);
     transform: translate3d(0,100%,0);
