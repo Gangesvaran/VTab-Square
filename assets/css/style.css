@@ -62,13 +62,13 @@ header.masthead .title:nth-child(3) {
   color: #3e6ab6;
 }
 
-/* .marquee{
+ .marquee{
 position: absolute;
 right: 5%;
 bottom: 5%;
 font-size: 20px;
 transition-duration: 3s;
-} */
+} 
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 13rem;
@@ -83,7 +83,7 @@ transition-duration: 3s;
   header.masthead .masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
-    line-height: 4.5rem;
+    line-height: 1rem;
     margin-bottom: 4rem;
   }
 }
