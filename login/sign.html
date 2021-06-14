@@ -24,6 +24,11 @@
     a:hover {
         color: #38d39f;
     }
+    .logo{
+        width: 50px;
+        height: 50px;
+        border-radius: 0%;
+    }
 </style>
 
 <body>
@@ -32,7 +37,7 @@
             <div class="signin-signup">
                     <form action="#" method="POST" class="sign-in-form">
                     <img src="img/avatar.svg" width="100" height="100">
-                    <h2 class="title">SIGN IN</h2>
+                    <h2 class="title">Employee Login</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
                         <input type="text" placeholder="Username" name="username" required />
@@ -45,56 +50,46 @@
 
                     <input type="submit" value="Login" name="login" class="btn solid" />
 
-                    <p class="social-text">Or Sign in with social platforms</p>
-                    <div class="social-media">
-                        <a href="#" class="social-icon">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#" class="social-icon">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" class="social-icon">
-                            <i class="fab fa-google"></i>
-                        </a>
-                        <a href="#" class="social-icon">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                    </div>
                 </form>
                 <form action="#" method="POST" class="sign-up-form">
                     <img src="img/avatar.svg" width="100" height="100">
-                    <h2 class="title">SIGN UP</h2>
+                    <h2 class="title">HR Login</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
                         <input type="text" placeholder="Username" name="username" required />
                     </div>
                     <div class="input-field">
-                        <i class="fas fa-envelope"></i>
-                        <input type="email" placeholder="Email" name="email" required />
-                    </div>
-                    <div class="input-field">
-                        <i class="fas fa-phone-square-alt"></i>
-                        <input type="tel" placeholder="Mobile" name="phone" required />
-                    </div>
-                    <div class="input-field">
                         <i class="fas fa-lock"></i>
                         <input type="password" placeholder="Password" name="password" required />
                     </div>
+                    <a href="#">Forgot Password?</a>
 
-                    <input type="submit" class="btn" name="submit" value="Sign Up" />
+                    <input type="submit" value="Login" name="login" class="btn solid" />
+
+                
                 </form>
+
+                
             </div>
+            
+
+            
         </div>
 
         <div class="panels-container">
             <div class="panel left-panel">
                 <div class="content">
-                    <h3> Didn't have account ?</h3>
-                    <p>
-                        Share your details and start journey with us
-                    </p>
+                    <h3> Pick your Login</h3><br><hr><br>
+                    <button class="btn transparent"  id="sign-up-btn">
+                     <img src="./img/avatar.svg" class="logo">  HR Login
+                    </button>
                     <button class="btn transparent" id="sign-up-btn">
-                        Sign Up
+                        <img src="./img/avatar.svg" class="logo">
+                       Manager Login
+                    </button>
+                    <button class="btn transparent" id="sign-up-btn">
+                        <img src="./img/avatar.svg" class="logo">
+                        Payroll Login
                     </button>
                 </div>
 
@@ -102,12 +97,9 @@
             </div>
             <div class="panel right-panel">
                 <div class="content">
-                    <h3> Already have account ?</h3>
-                    <p>
-                        To keep connected with us please login with your personal info
-                    </p>
+                    <h3> Back to Employee Login</h3><br><hr><br>
                     <button class="btn transparent" id="sign-in-btn">
-                        Sign In
+                        Employee Login
                     </button>
                 </div>
                 <img src="img/register.svg" class="image" alt="" />
@@ -118,4 +110,4 @@
     <script src="app.js"></script>
 </body>
 
-</html>d
+</html>
