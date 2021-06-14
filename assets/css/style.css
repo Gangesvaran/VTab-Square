@@ -16,13 +16,59 @@ header.masthead {
   height: 550px;
   position:relative;
 }
-.marquee{
+header.masthead .container {
+  transform: translate(-50%, -50%);
+  top: 60%;
+  left: 75%;
+  display: block;
+  position: absolute;
+  max-width: 500px;
+  font-family: "Fjalla One", sans-serif;
+}
+header.masthead h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 42px;
+  margin: 0;
+  line-height: 47px;
+  letter-spacing: 2px;
+  
+}
+
+header.masthead .title {
+  transform: translateX(-50%) rotate(-10deg);
+  display: block;
+  float: left;
+  left: 50%;
+  position: relative;
+}
+header.masthead .title span {
+  transform: skew(-10deg);
+  display: block;
+  float: left;
+  text-shadow: black 1px 1px, black 2px 2px, black 3px 3px, black 4px 4px, black 5px 5px, black 6px 6px;
+  min-width: 10px;
+  min-height: 10px;
+  position: relative;
+}
+
+header.masthead .title:nth-child(1) {
+  color: #d73a95;
+}
+header.masthead .title:nth-child(2) {
+  color: #7aab40;
+}
+header.masthead .title:nth-child(3) {
+  color: #3e6ab6;
+}
+
+/* .marquee{
 position: absolute;
 right: 5%;
 bottom: 5%;
 font-size: 20px;
 transition-duration: 3s;
-}
+} */
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 13rem;
