@@ -29,6 +29,9 @@
         height: 50px;
         border-radius: 0%;
     }
+    select{
+        display: block;
+    }
 </style>
 
 <body>
@@ -37,7 +40,7 @@
             <div class="signin-signup">
                     <form action="#" method="POST" class="sign-in-form">
                     <img src="img/avatar.svg" width="100" height="100">
-                    <h2 class="title">Employee Login</h2>
+                    <h2 class="title mt-5">Login</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
                         <input type="text" placeholder="Username" name="username" required />
@@ -45,6 +48,14 @@
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
                         <input type="password" placeholder="Password" name="password" required />
+                    </div>
+                    <div > 
+                        <select class="input-field" required> 
+                            <option selected>Employee</option>
+                            <option value="HR">HR</option>
+                            <option value="Manager">Manager</option>
+                            <option value="PayROle">PayRole</option>
+                        </select>
                     </div>
                     <a href="#">Forgot Password?</a>
 
@@ -78,7 +89,7 @@
 
         <div class="panels-container">
             <div class="panel left-panel">
-                <div class="content">
+                <!-- <div class="content">
                     <h3> Pick your Login</h3><br><hr><br>
                     <button class="btn transparent"  id="sign-up-btn">
                      <img src="./img/avatar.svg" class="logo">  HR Login
@@ -91,9 +102,9 @@
                         <img src="./img/avatar.svg" class="logo">
                         Payroll Login
                     </button>
-                </div>
+                </div> -->
 
-                <img src="img/log.svg" class="image" alt="" />
+                <img src="img/Secure login-rafiki.svg" class="image" alt="" />
             </div>
             <div class="panel right-panel">
                 <div class="content">
